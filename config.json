@@ -1,0 +1,8 @@
+{
+  "destinations": ["gdrive:insider-safety-net"],
+  "folders": ["Documents", "Desktop", "Pictures"],
+  "include": ["Drivers", "Apps", "Wifi"],
+  "exportWifiPasswords": false,
+  "exclude": [".venv/**", "node_modules/**", "__pycache__/**"],
+  "rcloneArgs": ["--transfers", "4", "--progress"]
+}
